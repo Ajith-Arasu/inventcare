@@ -5,7 +5,7 @@ const Header = () => {
     <div className="flex-row-ee" id="home">
       <div className="div" />
       <div className="button">
-      <a href="#contact-us" className="contact-us">
+        <a href="#contact-us" className="contact-us">
           Contact us
         </a>
       </div>
@@ -17,7 +17,7 @@ const Header = () => {
         </div>
       </div>
       <div className="navigation">
-        <a href="#home" className="home">
+        <a href="#" className="home">
           Home
         </a>
         <a href="#about-us" className="about-us">
