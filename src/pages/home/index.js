@@ -953,10 +953,10 @@ const MainPage = () => {
       console.log("width==>", width);
       if (width < 426) {
         setScreenType("mobile");
-      } else if (width >= 426 && width < 1024) {
-        setScreenType("tablet");
-      } else {
+      } else if (width > 1024) {
         setScreenType("desktop");
+      } else {
+        setScreenType("tablet");
       }
     };
 

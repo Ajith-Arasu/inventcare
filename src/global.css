@@ -1,3 +1,4 @@
+/* Code for desktop */
 @media (min-width: 1024px) {
   body {
     margin: 0;
@@ -3290,6 +3291,7 @@
     background-size: cover;
   }
 }
+/* code for mobile */
 @media (max-width: 427px) {
   body {
     margin: 0;
@@ -6188,7 +6190,8 @@
     background-size: cover;
   }
 }
-@media (min-width: 427px) and (max-width: 1024px) {
+/* code for tablet */
+@media only screen and (min-width: 427px) and (max-width: 1024px){
   body {
     margin: 0;
   }
