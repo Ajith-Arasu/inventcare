@@ -2,6 +2,11 @@ import React from "react";
 
 const AboutSection = () => {
   return (
+    <>
+    <div className="frame-4">
+        <span className="scroll">Scroll</span>
+        <div className="arrow-down" />
+      </div>
     <div className="mask-group">
       <div className="frame-5">
         <span className="shaping-a-smarter-world">
@@ -17,6 +22,7 @@ const AboutSection = () => {
         </span>
       </div>
     </div>
+    </>
   );
 };
 
