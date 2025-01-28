@@ -3,6 +3,9 @@
   body {
     margin: 0;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   :root {
     --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -84,6 +87,7 @@
     white-space: nowrap;
     letter-spacing: 1.52px;
     z-index: 54;
+    text-decoration: none;
   }
   .eaeccfefb-logo-crypto-template {
     display: flex;
@@ -156,6 +160,7 @@
     letter-spacing: 1.33px;
     z-index: 48;
     text-shadow: 0 0 7.619px rgba(75, 166, 41, 0.8);
+    text-decoration: none;
   }
   .about-us {
     flex-shrink: 0;
@@ -172,7 +177,16 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 49;
+    text-decoration: none;
   }
+  
+  .about-us:active, 
+  .about-us:hover {
+    color: #4ba629;
+    text-shadow: 0 0 7.619px rgba(75, 166, 41, 0.8);
+    outline: none;
+  }
+  
   .our-pillars {
     flex-shrink: 0;
     flex-basis: auto;
@@ -188,6 +202,13 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 50;
+    text-decoration: none;
+  }
+  .our-pillars:active, 
+  .our-pillars:hover {
+    color: #4ba629;
+    text-shadow: 0 0 7.619px rgba(75, 166, 41, 0.8);
+    outline: none;
   }
   .mission {
     flex-shrink: 0;
@@ -204,6 +225,13 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 51;
+    text-decoration: none;
+  }
+  .mission:active, 
+  .mission:hover {
+    color: #4ba629;
+    text-shadow: 0 0 7.619px rgba(75, 166, 41, 0.8);
+    outline: none;
   }
   .products {
     flex-shrink: 0;
@@ -220,6 +248,13 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 52;
+    text-decoration: none;
+  }
+  .products:active, 
+  .products:hover {
+    color: #4ba629;
+    text-shadow: 0 0 7.619px rgba(75, 166, 41, 0.8);
+    outline: none;
   }
   .flex-row {
     position: relative;
@@ -234,8 +269,7 @@
     height: 100%;
     top: 0;
     left: 50%;
-    background: url(./assets/images/newImage.png)
-      no-repeat center;
+    background: url(./assets/images/newImage.png) no-repeat center;
     background-size: cover;
     transform: translate(-13.34%, 0);
     z-index: 40;
@@ -3089,6 +3123,7 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 8;
+    text-decoration: none;
   }
   .mission-71 {
     flex-shrink: 0;
@@ -3104,6 +3139,7 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 11;
+    text-decoration: none;
   }
   .flex-row-b {
     display: flex;
@@ -3129,6 +3165,7 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 9;
+    text-decoration: none;
   }
   .products-73 {
     flex-shrink: 0;
@@ -3144,6 +3181,7 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 12;
+    text-decoration: none;
   }
   .flex-row-ea {
     position: relative;
@@ -3181,6 +3219,7 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 10;
+    text-decoration: none;
   }
   .flex-row-fbb {
     display: flex;
@@ -3200,6 +3239,7 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
     z-index: 13;
+    text-decoration: none;
   }
   .all-rights-reserved {
     position: absolute;
@@ -3498,8 +3538,7 @@
     width: 358px;
     height: 215.685px;
     margin: 40px auto 0;
-    background: url(./assets/images/mobile-apple.png)
-      no-repeat center;
+    background: url(./assets/images/mobile-apple.png) no-repeat center;
     background-size: cover;
     z-index: 95;
   }
@@ -3635,8 +3674,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/mobile-book.png)
-      no-repeat center;
+    background: url(./assets/images/mobile-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 56;
@@ -3724,8 +3762,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/mobile-book.png)
-      no-repeat center;
+    background: url(./assets/images/mobile-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 63;
@@ -3813,8 +3850,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/mobile-book.png)
-      no-repeat center;
+    background: url(./assets/images/mobile-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 70;
@@ -3902,8 +3938,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/mobile-book.png)
-      no-repeat center;
+    background: url(./assets/images/mobile-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 77;
@@ -5958,6 +5993,7 @@
     white-space: nowrap;
     letter-spacing: 0.21px;
     z-index: 208;
+    text-decoration: none;
   }
   .mission {
     flex-shrink: 0;
@@ -6191,7 +6227,7 @@
   }
 }
 /* code for tablet */
-@media only screen and (min-width: 427px) and (max-width: 1024px){
+@media only screen and (min-width: 427px) and (max-width: 1024px) {
   body {
     margin: 0;
   }
@@ -6201,23 +6237,23 @@
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
       "Source Han Sans CN", sans-serif;
   }
-  
+
   .main-container {
     overflow: hidden;
   }
-  
+
   .main-container,
   .main-container * {
     box-sizing: border-box;
   }
-  
+
   input,
   select,
   textarea,
   button {
     outline: 0;
   }
-  
+
   .main-container {
     position: relative;
     width: 1024px;
@@ -6312,8 +6348,7 @@
     width: 930.58px;
     height: 560.648px;
     margin: 106.94px 0 0 46.703px;
-    background: url(./assets/images/tab-apple.png)
-      no-repeat center;
+    background: url(./assets/images/tab-apple.png) no-repeat center;
     background-size: cover;
     z-index: 99;
   }
@@ -6461,8 +6496,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/tab-book.png)
-      no-repeat center;
+    background: url(./assets/images/tab-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 57;
@@ -6561,8 +6595,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/tab-book.png)
-      no-repeat center;
+    background: url(./assets/images/tab-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 65;
@@ -6660,8 +6693,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/tab-book.png)
-      no-repeat center;
+    background: url(./assets/images/tab-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 73;
@@ -6759,8 +6791,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/tab-book.png)
-      no-repeat center;
+    background: url(./assets/images/tab-book.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 81;

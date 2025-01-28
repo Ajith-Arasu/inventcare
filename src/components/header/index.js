@@ -2,10 +2,12 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex-row-ee">
+    <div className="flex-row-ee" id="home">
       <div className="div" />
       <div className="button">
-        <span className="contact-us">Contact us</span>
+      <a href="#contact-us" className="contact-us">
+          Contact us
+        </a>
       </div>
       <div className="eaeccfefb-logo-crypto-template">
         <div className="header-logo">
@@ -15,11 +17,21 @@ const Header = () => {
         </div>
       </div>
       <div className="navigation">
-        <span className="home">Home</span>
-        <span className="about-us">About us</span>
-        <span className="our-pillars">Our Pillars</span>
-        <span className="mission">Mission</span>
-        <span className="products">PRODUCTS</span>
+        <a href="#home" className="home">
+          Home
+        </a>
+        <a href="#about-us" className="about-us">
+          About Us
+        </a>
+        <a href="#our-pillars" className="our-pillars">
+          Our Pillars
+        </a>
+        <a href="#mission" className="mission">
+          Mission
+        </a>
+        <a href="#products" className="products">
+          Products
+        </a>
       </div>
     </div>
   );

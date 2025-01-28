@@ -6,17 +6,35 @@ const Footer = () => {
     <div className="group-6f">
       <span className="menu">Menu</span>
       <div className="flex-row-de">
-        <span className="home-70">Home</span>
-        <span className="mission-71">mission</span>
+      <a href="#home" className="home-70">
+          Home
+        </a>
+        <a href="#mission" className="mission-71">
+          Mission
+        </a>
+        {/* <span className="home-70">Home</span> */}
+        {/* <span className="mission-71">mission</span> */}
       </div>
       <div className="flex-row-b">
-        <span className="about-us-72">About us</span>
-        <span className="products-73">products</span>
+      <a href="#about-us" className="about-us-72">
+          About Us
+        </a>
+        {/* <span className="about-us-72">About us</span> */}
+        <a href="#products" className="products-73">
+          Products
+        </a>
+        {/* <span className="products-73">products</span> */}
       </div>
       <div className="flex-row-ea">
         <div className="our-pillars-74" />
-        <span className="contact-us-75">our pillars</span>
-        <span className="flex-row-fbb">contact us</span>
+        <a href="#our-pillars" className="contact-us-75">
+          Our Pillars
+        </a>
+        {/* <span className="contact-us-75">our pillars</span> */}
+        <a href="#contact-us" className="flex-row-fbb">
+          Contact us
+        </a>
+        {/* <span className="flex-row-fbb">contact us</span> */}
         <div className="all-rights-reserved" />
       </div>
       <div className="social-media-icons" />

@@ -3,7 +3,7 @@ import React from "react";
 const PillarsSection = () => {
   return (
     <>
-      <div className="flex-row-d">
+      <div className="flex-row-d" id="our-pillars">
         <span className="our-pillars-of-innovation">
           Our Pillars of Innovation
         </span>

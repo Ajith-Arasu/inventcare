@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutTwo = () => {
   return (
-    <div className="mask-group-14">
+    <div className="mask-group-14" id="mission">
         <div className="group-15" />
         <div className="rectangle" />
         <div className="frame-16">

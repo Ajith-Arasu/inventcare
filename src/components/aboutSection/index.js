@@ -3,7 +3,7 @@ import React from "react";
 const AboutSection = () => {
   return (
     <>
-    <div className="frame-4">
+    <div className="frame-4" id="about-us">
         <span className="scroll">Scroll</span>
         <div className="arrow-down" />
       </div>

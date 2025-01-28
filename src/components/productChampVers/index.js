@@ -1,7 +1,7 @@
 const ProductChampsVers = () => {
   return (
     <>
-      <div className="flex-row-bbd">
+      <div className="flex-row-bbd" id="products">
         <div className="rectangle-37">
           <span className="products-38">PRODUCTS</span>
         </div>

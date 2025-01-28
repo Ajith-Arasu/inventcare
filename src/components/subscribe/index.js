@@ -1,6 +1,6 @@
 const Subscribe = () => {
   return (
-    <div className="subscribe">
+    <div className="subscribe" id="contact-us">
       <div className="frame-6b">
         <div className="div-6c">
           <div className="icon-newsletter-crypto">
