@@ -3902,7 +3902,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/47eb22ea-f505-4048-b597-d484f3cc9e86.png)
+    background: url(./assets/images/mobile-book.png)
       no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
@@ -6759,7 +6759,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/45a35d48-662a-4bd8-80a9-d37561aa6682.png)
+    background: url(./assets/images/tab-book.png)
       no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
@@ -8280,7 +8280,7 @@
     position: relative;
     width: 142.835px;
     height: 142.835px;
-    margin: 100.824px 0 0 48.313px;
+    margin: 100.824px auto 0;
     background: #4ba629;
     z-index: 45;
     overflow: hidden;
