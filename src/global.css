@@ -394,6 +394,7 @@
     white-space: nowrap;
     letter-spacing: 1.52px;
     z-index: 37;
+    text-decoration: none;
   }
   .frame-4 {
     display: flex;
