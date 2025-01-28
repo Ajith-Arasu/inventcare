@@ -19,8 +19,7 @@ const ProductChampsVersIOT = () => {
         </div>
         <div className="ios-47">
           <span className="lorem-ipsum">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In amet,
-            morbi non at sed neque.
+          Accessible on both Android and iOS platforms, offering seamless functionality across devices.
           </span>
           <div className="iphones-48">
             <div className="screen-replace-here" />

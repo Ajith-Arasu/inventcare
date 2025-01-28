@@ -373,8 +373,7 @@ const MainPage = () => {
         </div>
         <span className="download-champsverse">Download Champsverse</span>
         <span className="lorem-ipsum">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit non neque
-          orci amet, amet .
+        Accessible on both Android and iOS platforms, offering seamless functionality across devices.
         </span>
         <div className="ios-49">
           <span className="download-for-ios">Download for iOS</span>

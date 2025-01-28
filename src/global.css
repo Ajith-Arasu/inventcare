@@ -3188,7 +3188,7 @@
     position: absolute;
     height: 16px;
     top: 1.857px;
-    left: 171.426px;
+    left: 165.426px;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 13.333333015441895px;
@@ -3319,7 +3319,7 @@
 
   .main-container {
     position: relative;
-    width: 390px;
+    width: 100%;
     height: 13891px;
     margin: 0 auto;
   }
@@ -3330,7 +3330,7 @@
     position: relative;
     width: 342px;
     height: 48px;
-    margin: 24px 0 0 24px;
+    margin: 24px auto 0;
     z-index: 91;
   }
   .logo-crypto-template {
@@ -3412,12 +3412,12 @@
     position: relative;
     width: 257px;
     height: 92px;
-    margin: 72px 0 0 16px;
+    margin: 72px auto 0;
     font-family: DM Sans, var(--default-font-family);
     font-size: 38px;
     font-weight: 700;
     line-height: 46px;
-    text-align: left;
+    text-align: center;
     letter-spacing: -1px;
     z-index: 83;
   }
@@ -3448,13 +3448,13 @@
     position: relative;
     width: 320px;
     height: 52px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     z-index: 84;
   }
   .button {
@@ -3465,7 +3465,7 @@
     gap: 4px;
     position: relative;
     width: 358px;
-    margin: 40px 0 0 16px;
+    margin: 40px auto 0;
     padding: 27px 32px 27px 32px;
     background: #4ba629;
     z-index: 93;
@@ -3495,7 +3495,7 @@
     position: relative;
     width: 358px;
     height: 215.685px;
-    margin: 40px 0 0 16px;
+    margin: 40px auto 0;
     background: url(./assets/images/d642a0f5-9636-4b11-9990-90c34fb1f624.png)
       no-repeat center;
     background-size: cover;
@@ -3503,9 +3503,9 @@
   }
   .download-app {
     position: relative;
-    width: 390px;
+    width: 100%;
     height: 674px;
-    margin: 60.315px 0 0 0;
+    margin: 60.315px auto 0;
     background: #4ba629;
     z-index: 96;
     overflow: hidden;
@@ -3518,7 +3518,7 @@
     gap: 16px;
     position: relative;
     width: 334px;
-    margin: 40px 0 0 28px;
+    margin: 40px auto 0;
     z-index: 97;
   }
   .shaping-a-smarter-world-through-innovation {
@@ -3557,7 +3557,7 @@
     position: relative;
     width: 297.5px;
     height: 319.579px;
-    margin: 32px 0 0 46px;
+    margin: 32px auto 0;
     background: url(./assets/images/2a6a1920-1b08-4b48-afed-65613551e04b.png)
       no-repeat center;
     background-size: cover;
@@ -3566,12 +3566,12 @@
   .heading-4 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
     gap: 16px;
     position: relative;
     width: 316px;
-    margin: 60px 0 0 16px;
+    margin: 60px auto 0;
     z-index: 51;
   }
   .our-pillars-of-innovation {
@@ -3605,14 +3605,14 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     z-index: 53;
   }
   .blog-card-mobile {
     position: relative;
     width: 358.643px;
     height: 484px;
-    margin: 32px 0 0 15.68px;
+    margin: 32px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 54;
     overflow: hidden;
@@ -3701,7 +3701,7 @@
     position: relative;
     width: 358px;
     height: 484px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 61;
     overflow: hidden;
@@ -3790,7 +3790,7 @@
     position: relative;
     width: 358px;
     height: 484px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 68;
     overflow: hidden;
@@ -3879,7 +3879,7 @@
     position: relative;
     width: 358px;
     height: 484px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 75;
     overflow: hidden;
@@ -3966,9 +3966,9 @@
   }
   .download-app-16 {
     position: relative;
-    width: 390px;
+    width: 100%;
     height: 1619px;
-    margin: 60px 0 0 0;
+    margin: 60px auto 0;
     background: #4ba629;
     z-index: 101;
     overflow: hidden;
@@ -3977,7 +3977,7 @@
     position: relative;
     width: 305px;
     height: 108px;
-    margin: 40px 0 0 42.5px;
+    margin: 40px auto 0;
     font-family: DM Sans, var(--default-font-family);
     font-size: 28px;
     font-weight: 700;
@@ -4025,7 +4025,7 @@
     position: relative;
     width: 236px;
     height: 217.3px;
-    margin: 16.699px 0 0 77px;
+    margin: 16.699px auto 0;
     z-index: 105;
     overflow: visible auto;
     border-radius: 36.4px;
@@ -4094,7 +4094,7 @@
     position: relative;
     width: 236px;
     height: 217.3px;
-    margin: 17.001px 0 0 77px;
+    margin: 17.001px auto 0;
     z-index: 111;
     overflow: visible auto;
     border-radius: 36.4px;
@@ -4163,7 +4163,7 @@
     position: relative;
     width: 236px;
     height: 217.3px;
-    margin: 16.7px 0 0 77px;
+    margin: 16.7px auto 0;
     z-index: 117;
     overflow: visible auto;
     border-radius: 36.4px;
@@ -4232,7 +4232,7 @@
     position: relative;
     width: 236px;
     height: 217.3px;
-    margin: 16.7px 0 0 77px;
+    margin: 16.7px auto 0;
     z-index: 123;
     overflow: visible auto;
     border-radius: 36.4px;
@@ -4301,7 +4301,7 @@
     position: relative;
     width: 236px;
     height: 217.3px;
-    margin: 16.7px 0 0 77px;
+    margin: 16.7px auto 0;
     z-index: 129;
     overflow: visible auto;
     border-radius: 36.4px;
@@ -4370,7 +4370,7 @@
     position: relative;
     width: 297.497px;
     height: 319.576px;
-    margin: 39.7px 0 0 46px;
+    margin: 39.7px auto 0;
     z-index: 103;
   }
   .group-2c {
@@ -4417,13 +4417,13 @@
     display: block;
     position: relative;
     height: 36px;
-    margin: 32.679px 0 0 16px;
+    margin: 32.679px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
     z-index: 136;
   }
@@ -4434,20 +4434,20 @@
     position: relative;
     width: 315px;
     height: 78px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     z-index: 137;
   }
   .div-2d {
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 32px 0 0 16px;
+    margin: 32px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 138;
     overflow: hidden;
@@ -4510,7 +4510,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 143;
     overflow: hidden;
@@ -4573,7 +4573,7 @@
     position: relative;
     width: 358px;
     height: 622px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     font-size: 0px;
     background: #4ba629;
     z-index: 148;
@@ -4712,7 +4712,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 160;
     overflow: hidden;
@@ -4775,7 +4775,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 165;
     overflow: hidden;
@@ -4853,13 +4853,13 @@
     display: block;
     position: relative;
     height: 36px;
-    margin: 60px 0 0 16px;
+    margin: 60px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
     z-index: 2;
   }
@@ -4870,20 +4870,20 @@
     position: relative;
     width: 287px;
     height: 78px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     z-index: 3;
   }
   .div-37 {
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 32px 0 0 16px;
+    margin: 32px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 4;
     overflow: hidden;
@@ -4893,7 +4893,7 @@
     position: relative;
     width: 68px;
     height: 68px;
-    margin: 48px 0 0 145px;
+    margin: 48px auto 0;
     background: #4ba629;
     z-index: 5;
     overflow: hidden;
@@ -4946,7 +4946,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 9;
     overflow: hidden;
@@ -5009,7 +5009,7 @@
     position: relative;
     width: 358px;
     height: 622px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: url(./assets/images/f7f77aa57179dfe44dd3eecdf472a9cfd8aac798.png)
       no-repeat center;
     background-size: cover;
@@ -5021,7 +5021,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 14;
     overflow: hidden;
@@ -5084,7 +5084,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 19;
     overflow: hidden;
@@ -5153,36 +5153,36 @@
     position: relative;
     width: 273px;
     height: 72px;
-    margin: 50px 0 0 16px;
+    margin: 50px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
-    text-align: left;
+    text-align: center;
     z-index: 26;
   }
   .innovative-safety-solutions {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
     width: 314px;
     height: 52px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     z-index: 27;
   }
   .div-40 {
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 32px 0 0 16px;
+    margin: 32px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 28;
     overflow: hidden;
@@ -5245,7 +5245,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 33;
     overflow: hidden;
@@ -5318,7 +5318,7 @@
     position: relative;
     width: 358px;
     height: 622px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: url(./assets/images/fcbdbd1f-c2fe-4135-9c15-da9af399829c.png)
       no-repeat center;
     background-size: cover;
@@ -5330,7 +5330,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 39;
     overflow: hidden;
@@ -5393,7 +5393,7 @@
     position: relative;
     width: 358px;
     height: 295px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 44;
     overflow: hidden;
@@ -5456,13 +5456,13 @@
     display: block;
     position: relative;
     height: 36px;
-    margin: 60px 0 0 16px;
+    margin: 60px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
     z-index: 176;
   }
@@ -5473,20 +5473,20 @@
     position: relative;
     width: 330px;
     height: 78px;
-    margin: 16px 0 0 16px;
+    margin: 16px auto 0;
     color: #ffffff;
     font-family: DM Sans, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     z-index: 177;
   }
   .ios-49 {
     position: relative;
     width: 358px;
     height: 580px;
-    margin: 32px 0 0 16px;
+    margin: 32px auto 0;
     font-size: 0px;
     background: rgba(255, 255, 255, 0.1);
     z-index: 178;
@@ -5665,7 +5665,7 @@
     position: relative;
     width: 358px;
     height: 580px;
-    margin: 20px 0 0 16px;
+    margin: 20px auto 0;
     font-size: 0px;
     background: rgba(255, 255, 255, 0.1);
     z-index: 193;
@@ -5757,7 +5757,7 @@
     position: relative;
     width: 390px;
     height: 521px;
-    margin: 60px 0 0 0;
+    margin: 60px auto 0;
     background: #4ba629;
     z-index: 221;
     overflow: hidden;
@@ -5875,7 +5875,7 @@
     position: relative;
     width: 390px;
     height: 301px;
-    margin: 0 0 0 0;
+    margin: 0 auto 0;
     background: rgba(255, 255, 255, 0.1);
     z-index: 200;
     overflow: hidden;
@@ -6179,7 +6179,7 @@
   }
   .mob {
     position: absolute;
-    width: 390px;
+    width: 100%;
     height: 13891px;
     top: 0;
     left: 0;
