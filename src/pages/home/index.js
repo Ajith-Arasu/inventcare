@@ -373,7 +373,8 @@ const MainPage = () => {
         </div>
         <span className="download-champsverse">Download Champsverse</span>
         <span className="lorem-ipsum">
-        Accessible on both Android and iOS platforms, offering seamless functionality across devices.
+          Accessible on both Android and iOS platforms, offering seamless
+          functionality across devices.
         </span>
         <div className="ios-49">
           <span className="download-for-ios">Download for iOS</span>
@@ -949,6 +950,7 @@ const MainPage = () => {
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
+      console.log("width==>", width);
       if (width < 426) {
         setScreenType("mobile");
       } else if (width >= 426 && width < 1024) {
