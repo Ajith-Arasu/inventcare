@@ -26,7 +26,7 @@ const MainPage = () => {
         if (target) {
           target.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-      }, 300); // Delay to allow popup close animation
+      }, 300);
     };
 
     return (
@@ -93,7 +93,9 @@ const MainPage = () => {
             Empowering Productivity | Fostering Creativity | Enhancing Safety
           </span>
           <div className="button">
-            <span className="lets-start">Let’s Start</span>
+            <a href="#contact-us" className="lets-start">
+              Let’s Start
+            </a>
           </div>
           <div className="apple-computers" />
           <div className="download-app" id="about-us">
@@ -462,7 +464,7 @@ const MainPage = () => {
             </div>
             <div className="samsung-galaxys" />
           </div>
-          <div className="frame">
+          <div className="frame" id="contact-us">
             <div className="div-56">
               <div className="icon-newsletter-crypto">
                 <div className="icon-newsletter-crypto-57" />

@@ -3399,6 +3399,9 @@
     align-items: center;
     width: 100%;
   }
+  .popup-content a{
+    font-family: DM Sans, var(--default-font-family);
+  }
   
   .close-btn {
     position: absolute;
@@ -3416,10 +3419,7 @@
     margin: 10px 0;
     transition: color 0.3s ease-in-out;
   }
-  
-  a:hover {
-    color: #4ba629;
-  }
+
   
   .flex-row-e {
     display: flex;
