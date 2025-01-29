@@ -3390,6 +3390,8 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
+    background: url(./assets/images/popup_bg.png) no-repeat center;
+    background-size: cover;
   }
   
   .popup-content {
@@ -3399,7 +3401,7 @@
     align-items: center;
     width: 100%;
   }
-  .popup-content a{
+  .popup-content a {
     font-family: DM Sans, var(--default-font-family);
   }
   
@@ -3411,12 +3413,17 @@
     color: white;
     cursor: pointer;
   }
-  
+
+  .close-btn img {
+    width: 30px;
+    height: 30px;
+  }
+
   a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    margin: 10px 0;
+    margin: 24px 0;
     transition: color 0.3s ease-in-out;
   }
 
@@ -6285,6 +6292,8 @@
 
 /* Code for tablet */
 @media only screen and (min-width: 427px) and (max-width: 1024px) {
+
+
   body {
     margin: 0;
   }
@@ -6317,6 +6326,56 @@
     height: 28513px;
     margin: 0 auto;
   }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 80.738px;
+    right: 80.745px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .close-btn img{
+    width: 82.708px;
+    height: 82.708px;
+  
+  }
+
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 40px 0;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #4ba629;
+  }
+ 
   .innovating-for-better-lives {
     position: relative;
     width: 607.311px;

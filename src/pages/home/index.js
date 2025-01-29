@@ -11,6 +11,7 @@ import ProductChampsVers from "../../components/productChampVers";
 import ProductChampsVersIOT from "../../components/productChampsVersIOT";
 import ProductInventCare from "../../components/productInventcare";
 import Subscribe from "../../components/subscribe";
+import closeBtn from "../../assets/images/close_btn.png";
 
 const MainPage = () => {
   const [screenType, setScreenType] = useState("desktop");
@@ -31,8 +32,14 @@ const MainPage = () => {
 
     return (
       <div className="popup">
-        <span className="close-btn" onClick={() => setOpenPopUp(false)}>
-          &times;
+        <span
+          className="close-btn"
+          onClick={() => {
+            console.log("click");
+            setOpenPopUp(false);
+          }}
+        >
+          <img alt="close" src={closeBtn}></img>
         </span>
         <div className="popup-content">
           <a href="#home" onClick={(e) => handleNavigation(e, "home")}>
@@ -564,8 +571,10 @@ const MainPage = () => {
   };
 
   const TabComponent = () => {
+    const [openPopUp, setOpenPopUp] = useState(false);
     return (
       <div className="main-container">
+        {openPopUp && <Popup setOpenPopUp={setOpenPopUp} />}
         <div className="innovating-for-better-lives">
           <span className="innovating">Innovating</span>
           <span className="for-better-lives"> for Better Lives</span>
@@ -577,7 +586,7 @@ const MainPage = () => {
           <span className="lets-start">Let’s Start</span>
         </div>
         <div className="apple-computers" />
-        <div className="download-app">
+        <div className="download-app" id="about-us">
           <div className="heading">
             <span className="shaping-a-smarter-world">
               Shaping a Smarter World Through Innovation
@@ -593,7 +602,7 @@ const MainPage = () => {
           </div>
           <div className="group" />
         </div>
-        <div className="heading-1">
+        <div className="heading-1" id="our-pillars">
           <span className="our-pillars-of-innovation">
             Our Pillars of Innovation
           </span>
@@ -676,7 +685,7 @@ const MainPage = () => {
             </div>
           </div>
         </div>
-        <div className="download-app-16">
+        <div className="download-app-16" id="mission">
           <div className="create-products">
             <span className="at">At</span>
             <span className="inventcare"> </span>
@@ -755,7 +764,7 @@ const MainPage = () => {
             <div className="group-2c" />
           </div>
         </div>
-        <div className="rectangle">
+        <div className="rectangle" id="products">
           <span className="products">PRODUCTS</span>
         </div>
         <span className="champsverse">Champsverse</span>
@@ -976,16 +985,35 @@ const MainPage = () => {
             <span className="menu">Menu</span>
             <div className="div-59" />
             <div className="flex-row-f">
-              <span className="home">Home</span>
-              <span className="mission">mission</span>
+              {/* <span className="home">Home</span>
+              <span className="mission">mission</span> */}
+              <a href="#home" className="home">
+                Home
+              </a>
+              <a href="#mission" className="mission">
+                Mission
+              </a>
             </div>
             <div className="flex-row-e">
-              <span className="about-us">About us</span>
-              <span className="products-5a">products</span>
+              <a href="#about-us" className="about-us">
+                About Us
+              </a>
+              <a href="#products" className="products-5a">
+                Products
+              </a>
+              {/* <span className="about-us">About us</span>
+              <span className="products-5a">products</span> */}
             </div>
             <div className="flex-row-ad">
-              <span className="our-pillars">our pillars</span>
-              <span className="contact-us">contact us</span>
+              <a href="#our-pillars" className="our-pillars">
+                Our Pillars
+              </a>
+
+              <a href="#contact-us" className="contact-us">
+                Contact us
+              </a>
+              {/* <span className="our-pillars">our pillars</span>
+              <span className="contact-us">contact us</span> */}
             </div>
             <div className="div-5b" />
             <div className="flex-row-a">
@@ -1017,7 +1045,13 @@ const MainPage = () => {
             </div>
           </div>
         </div>
-        <div className="menu-63">
+        <div
+          className="menu-63"
+          onClick={() => {
+            console.log("popup   ");
+            setOpenPopUp(true);
+          }}
+        >
           <div className="div-64" />
         </div>
       </div>
