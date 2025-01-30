@@ -3408,7 +3408,7 @@
   .close-btn {
     position: absolute;
     top: 27px;
-    right: 18px;
+    right: 42px;
     font-size: 24px;
     color: white;
     cursor: pointer;
@@ -6289,6 +6289,16 @@
   }
 }
 
+@media (max-width:375) {
+  .close-btn {
+    position: absolute;
+    top: 27px;
+    right: 18px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+}
 /* Code for tablet */
 @media only screen and (min-width: 427px) and (max-width: 1024px) {
   body {
