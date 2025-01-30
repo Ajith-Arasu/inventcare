@@ -3390,10 +3390,10 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    background: url(./assets/images/popup_bg.png) no-repeat center;
+    background: url(./assets/images/Mobile.png) no-repeat center;
     background-size: cover;
   }
-  
+
   .popup-content {
     position: relative;
     display: flex;
@@ -3404,19 +3404,18 @@
   .popup-content a {
     font-family: DM Sans, var(--default-font-family);
   }
-  
+
   .close-btn {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 27px;
+    right: 18px;
     font-size: 24px;
     color: white;
     cursor: pointer;
-  }
+}
 
   .close-btn img {
-    width: 30px;
-    height: 30px;
+    width: 42px;
   }
 
   a {
@@ -3427,7 +3426,6 @@
     transition: color 0.3s ease-in-out;
   }
 
-  
   .flex-row-e {
     display: flex;
     align-items: center;
@@ -3575,6 +3573,7 @@
     background: #4ba629;
     z-index: 93;
     border-radius: 80px;
+    height: 60px;
   }
   .lets-start {
     display: flex;
@@ -6292,8 +6291,6 @@
 
 /* Code for tablet */
 @media only screen and (min-width: 427px) and (max-width: 1024px) {
-
-
   body {
     margin: 0;
   }
@@ -6338,8 +6335,9 @@
     align-items: center;
     justify-content: center;
     z-index: 1000;
+    background: url(./assets/images/tab.png) no-repeat center;
   }
-  
+
   .popup-content {
     position: relative;
     display: flex;
@@ -6347,7 +6345,7 @@
     align-items: center;
     width: 100%;
   }
-  
+
   .close-btn {
     position: absolute;
     top: 80.738px;
@@ -6357,13 +6355,11 @@
     cursor: pointer;
     z-index: 1000;
   }
-  .close-btn img{
+  .close-btn img {
     width: 82.708px;
     height: 82.708px;
-  
   }
 
-  
   a {
     color: white;
     text-decoration: none;
@@ -6371,11 +6367,11 @@
     margin: 40px 0;
     transition: color 0.3s ease-in-out;
   }
-  
+
   a:hover {
     color: #4ba629;
   }
- 
+
   .innovating-for-better-lives {
     position: relative;
     width: 607.311px;

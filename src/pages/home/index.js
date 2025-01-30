@@ -573,7 +573,7 @@ const MainPage = () => {
   const TabComponent = () => {
     const [openPopUp, setOpenPopUp] = useState(false);
     return (
-      <div className="main-container">
+      <div className={"main-container"}>
         {openPopUp && <Popup setOpenPopUp={setOpenPopUp} />}
         <div className="innovating-for-better-lives">
           <span className="innovating">Innovating</span>
