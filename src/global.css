@@ -450,6 +450,18 @@
     z-index: 56;
     overflow: visible auto;
   }
+
+  .mask-group-24 {
+    position: relative;
+    width: 100%;
+    height: 600.952px;
+    margin: 80px 0 0 0;
+    background: url(./assets/images/bggg.png)
+      no-repeat center;
+    background-size: 100% 100%;
+    z-index: 56;
+    overflow: visible auto;
+  }
   .frame-5 {
     display: flex;
     flex-direction: column;
@@ -505,7 +517,7 @@
     position: relative;
     width: 1238.094px;
     height: 61px;
-    margin: 154.284px auto 0;
+    margin: 100px auto 0;
     z-index: 39;
     padding-top: 50px;
   }
@@ -542,7 +554,7 @@
     position: relative;
     width: 1291.427px;
     height: 485.714px;
-    margin: 41.857px auto 0;
+    margin: 72px auto 0;
     z-index: 235;
   }
   .frame-6 {
@@ -618,7 +630,7 @@
     position: relative;
     min-width: 0;
     height: 173.333px;
-    background: url(./assets/images/ece5aa14953966809b65c3db4725c847369cc169.png)
+    background: url(./assets/images/2.png)
       no-repeat center;
     background-size: cover;
     z-index: 218;
@@ -673,7 +685,7 @@
     position: relative;
     min-width: 0;
     height: 173.333px;
-    background: url(./assets/images/ece5aa14953966809b65c3db4725c847369cc169.png)
+    background: url(./assets/images/3.png)
       no-repeat center;
     background-size: cover;
     z-index: 225;
@@ -728,7 +740,7 @@
     position: relative;
     min-width: 0;
     height: 173.333px;
-    background: url(./assets/images/ece5aa14953966809b65c3db4725c847369cc169.png)
+    background: url(./assets/images/4.png)
       no-repeat center;
     background-size: cover;
     z-index: 232;
@@ -899,6 +911,7 @@
     z-index: 61;
     -webkit-mask-image: url(./assets/images/2fe9f57b-0099-4056-85ec-67dba6ac15f9.png);
     -webkit-mask-size: cover;
+    opacity: 0;
   }
   .group-15 {
     position: absolute;
@@ -1415,7 +1428,7 @@
   .flex-row-bbd {
     position: relative;
     width: 100%;
-    height: 108.238px;
+    height: 80.238px;
     margin: 99.048px 0 0 0;
     z-index: 94;
   }
@@ -2034,11 +2047,11 @@
     position: absolute;
     width: 90.53%;
     height: 128.77%;
-    top: -33.47%;
+    top: -42.47%;
     left: 4.73%;
     background: url(./assets/images/80dc1ba7-e572-43e5-952a-7e14852c234c.png)
       no-repeat center;
-    background-size: 100% 100%;
+    background-size: 100% 70%;
     z-index: 160;
   }
   .body-49 {
@@ -3063,7 +3076,7 @@
     text-transform: uppercase;
     white-space: nowrap;
     letter-spacing: 1.52px;
-    z-index: 27;
+    z-index: 27;  
   }
   .footer {
     display: flex;
@@ -3824,7 +3837,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/mobile-book.png) no-repeat center;
+    background: url(./assets/images/2mob.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 63;
@@ -3912,7 +3925,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/mobile-book.png) no-repeat center;
+    background: url(./assets/images/3mob.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 70;
@@ -4000,7 +4013,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/mobile-book.png) no-repeat center;
+    background: url(./assets/images/4mob.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 77;
@@ -6717,7 +6730,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/tab-book.png) no-repeat center;
+    background: url(./assets/images/2tab.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 65;
@@ -6815,7 +6828,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/tab-book.png) no-repeat center;
+    background: url(./assets/images/3tab.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 73;
@@ -6913,7 +6926,7 @@
     top: 50%;
     right: 0;
     left: 0;
-    background: url(./assets/images/tab-book.png) no-repeat center;
+    background: url(./assets/images/4tab.png) no-repeat center;
     background-size: cover;
     transform: translate(0, -50%);
     z-index: 81;

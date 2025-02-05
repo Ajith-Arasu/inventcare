@@ -15,7 +15,6 @@ import closeBtn from "../../assets/images/close_btn.png";
 
 const MainPage = () => {
   const [screenType, setScreenType] = useState("desktop");
-  console.log("screenType===>", screenType);
 
   const Popup = ({ setOpenPopUp }) => {
     const handleNavigation = (e, id) => {
@@ -35,7 +34,6 @@ const MainPage = () => {
         <span
           className="close-btn"
           onClick={() => {
-            console.log("click");
             setOpenPopUp(false);
           }}
         >
@@ -1048,7 +1046,6 @@ const MainPage = () => {
         <div
           className="menu-63"
           onClick={() => {
-            console.log("popup   ");
             setOpenPopUp(true);
           }}
         >
@@ -1061,7 +1058,6 @@ const MainPage = () => {
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-      console.log("width==>", width);
       if (width < 426) {
         setScreenType("mobile");
       } else if (width > 1024) {

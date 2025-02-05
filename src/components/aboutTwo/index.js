@@ -1,11 +1,9 @@
 import React from "react";
 
 const AboutTwo = () => {
-  return (
-    <div className="mask-group-14" id="mission">
-        <div className="group-15" />
-        <div className="rectangle" />
-        <div className="frame-16">
+  return (<>
+    <div className="mask-group-24">
+    <div className="frame-16">
           <div className="at-inventcare-17">
             <span className="at">At</span>
             <span className="nbsp"> </span>
@@ -98,7 +96,10 @@ const AboutTwo = () => {
             </div>
           </div>
         </div>
-      </div>
+    </div>
+
+  
+  </>
   );
 };
 
