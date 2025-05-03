@@ -2,7 +2,7 @@ const ProductInventCare = () => {
   return (
     <>
       <span className="inventcare-safety-solutions">
-      InventCare Systems Pvt ltd Safety Solutions
+      InventCare Systems Pvt.Ltd Safety Solutions
       </span>
       <span className="peace-of-mind">
         Providing families with peace of mind through innovative safety

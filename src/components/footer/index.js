@@ -9,8 +9,8 @@ const Footer = () => {
       <a href="#home" className="home-70">
           Home
         </a>
-        <a href="#mission" className="mission-71">
-          Mission
+        <a href="/privacy-policy" className="mission-71">
+          Privacy Policy
         </a>
         {/* <span className="home-70">Home</span> */}
         {/* <span className="mission-71">mission</span> */}
@@ -32,7 +32,7 @@ const Footer = () => {
         </a>
         {/* <span className="contact-us-75">our pillars</span> */}
         <a href="#contact-us" className="flex-row-fbb">
-          Contact us
+          Contact us  
         </a>
         {/* <span className="flex-row-fbb">contact us</span> */}
         <div className="all-rights-reserved" />

@@ -109,7 +109,7 @@ const MainPage = () => {
                 Shaping a Smarter World Through Innovation
               </span>
               <span className="at-inventcare-we-specialize">
-                At InventCare Systems Pvt ltd, we specialize in designing products that make
+                At InventCare Systems Pvt.Ltd, we specialize in designing products that make
                 life better. Whether it's a cutting-edge productivity app, an
                 IoT-based toy that sparks creativity in children, or a safety
                 solution that gives peace of mind to families, our focus is
@@ -199,7 +199,7 @@ const MainPage = () => {
             <div className="inventcare-products">
               <span className="at">At</span>
               <span className="inventcare"> </span>
-              <span className="creating-products">InventCare Systems Pvt ltd, </span>
+              <span className="creating-products">InventCare Systems Pvt.Ltd, </span>
               <span className="at-17">
                 we are committed to creating products that
               </span>
@@ -383,7 +383,7 @@ const MainPage = () => {
             </span>
           </div>
           <span className="inventcare-safety-solutions">
-          InventCare Systems Pvt ltd Safety solutions
+          InventCare Systems Pvt.Ltd Safety solutions
           </span>
           <span className="innovative-safety-solutions">
             Providing families with peace of mind through innovative safety
@@ -497,8 +497,8 @@ const MainPage = () => {
                 <a href="#home" className="home">
                   Home
                 </a>
-                <a href="#mission" className="mission">
-                  Mission
+                <a href="/privacy-policy" className="mission">
+                  Privacy Policy
                 </a>
                 {/* <span className="home">Home</span>
                 <span className="mission">mission</span> */}
@@ -590,7 +590,7 @@ const MainPage = () => {
               Shaping a Smarter World Through Innovation
             </span>
             <span className="at-inventcare">
-              At InventCare Systems Pvt ltd, we specialize in designing products that make life
+              At InventCare Systems Pvt.Ltd, we specialize in designing products that make life
               better. Whether it's a cutting-edge productivity app, an IoT-based
               toy that sparks creativity in children, or a safety solution that
               gives peace of mind to families, our focus is always on you. We
@@ -687,7 +687,7 @@ const MainPage = () => {
           <div className="create-products">
             <span className="at">At</span>
             <span className="inventcare"> </span>
-            <span className="committed-products">InventCare Systems Pvt ltd, </span>
+            <span className="committed-products">InventCare Systems Pvt.Ltd, </span>
             <span className="at-17">
               we are committed to creating products that
             </span>
@@ -877,7 +877,7 @@ const MainPage = () => {
             gaming experiences.
           </span>
         </div>
-        <span className="inventcare-safety">InventCare Systems Pvt ltd Safety solutions</span>
+        <span className="inventcare-safety">InventCare Systems Pvt.Ltd Safety solutions</span>
         <span className="innovative-safety-solutions">
           Providing families with peace of mind through innovative safety
           solutions.
@@ -988,8 +988,8 @@ const MainPage = () => {
               <a href="#home" className="home">
                 Home
               </a>
-              <a href="#mission" className="mission">
-                Mission
+              <a href="/privacy-policy" className="mission">
+                Privacy Policy
               </a>
             </div>
             <div className="flex-row-e">
