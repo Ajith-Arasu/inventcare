@@ -7,7 +7,7 @@ const AboutTwo = () => {
           <div className="at-inventcare-17">
             <span className="at">At</span>
             <span className="nbsp"> </span>
-            <span className="inventcare">Inventcare</span>
+            <span className="inventcare">InventCare Systems Pvt ltd</span>
             <span className="nbsp-18">, </span>
             <span className="at-19">
               we are committed to creating products that

@@ -13,7 +13,7 @@ const AboutSection = () => {
           Shaping a Smarter World Through Innovation
         </span>
         <span className="at-inventcare">
-          At InventCare, we specialize in designing products that make life
+          At InventCare Systems Pvt ltd, we specialize in designing products that make life
           better. Whether it's a cutting-edge productivity app, an IoT-based toy
           that sparks creativity in children, or a safety solution that gives
           peace of mind to families, our focus is always on you. We are
